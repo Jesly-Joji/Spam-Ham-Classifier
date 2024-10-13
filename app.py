@@ -74,7 +74,7 @@ def transform(text):
     return text
 
     
-st.title("Spam Classifier")
+st.title("Spam/Ham Classifier")
 
 input=st.text_input("Enter the message")
 
