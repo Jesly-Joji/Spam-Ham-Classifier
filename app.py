@@ -6,6 +6,8 @@ import requests
 
 nltk.download("punkt")
 nltk.download("stopwords")
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 model_url = "https://github.com/Jesly-Joji/Spam-Ham-Classifier/raw/main/MNB_model.pkl"
 response = requests.get(model_url)
