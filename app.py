@@ -4,8 +4,8 @@ import joblib
 import nltk
 import requests
 
-#nltk.download("punkt")
-#nltk.download("stopwords")
+nltk.download("punkt")
+nltk.download("stopwords")
 
 model_url = "https://github.com/Jesly-Joji/Spam-Ham-Classifier/raw/main/MNB_model.pkl"
 response = requests.get(model_url)
