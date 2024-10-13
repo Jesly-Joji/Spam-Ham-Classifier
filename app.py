@@ -9,7 +9,7 @@ nltk.download("stopwords")
 
 model_url = "https://github.com/Jesly-Joji/Spam-Ham-Classifier/raw/main/MNB_model.pkl"
 response = requests.get(model_url)
-    with open("MNB_model.pkl", "wb") as f:
+with open("MNB_model.pkl", "wb") as f:
         f.write(response.content)
 
 #Load the saved Model2
