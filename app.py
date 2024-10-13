@@ -16,6 +16,11 @@ with open("MNB_model.pkl", "wb") as f:
 model2=joblib.load("MNB_model.pkl")
 
 
+vectorizer_url="https://github.com/Jesly-Joji/Spam-Ham-Classifier/raw/main/tfidf_vectorizer.pkl"
+
+response = requests.get(vectorizer_url)
+with open("tfidf_vectorizer.pkl", "wb") as f:
+        f.write(response.content)
 #Load the vectorizer
 tf=joblib.load("tfidf_vectorizer.pkl")
 
