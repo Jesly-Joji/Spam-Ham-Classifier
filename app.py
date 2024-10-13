@@ -2,7 +2,7 @@
 import streamlit as st
 import joblib
 import nltk
-import request
+import requests
 
 nltk.download("punkt")
 nltk.download("stopwords")
