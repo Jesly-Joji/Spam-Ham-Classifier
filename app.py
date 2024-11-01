@@ -3,6 +3,7 @@ import streamlit as st
 import joblib
 import nltk
 import requests
+from xgboost import XGBClassifier
 
 nltk.download("punkt")
 nltk.download("stopwords")
