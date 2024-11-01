@@ -3,4 +3,3 @@ scikit-learn
 nltk
 requests
 joblib
-xgboost
